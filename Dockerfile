@@ -5,7 +5,7 @@ FROM golang:1.21 AS builder
 WORKDIR /app
 
 # Copy the go.mod and go.sum files
-COPY go.mod go.sum ./
+COPY go.mod ./
 
 # Download dependencies
 RUN go mod download
