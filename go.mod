@@ -1,3 +1,3 @@
 module github.com/johanesraphaeln/golang-keyob-demo
 
-go 1.23.1
+go 1.21
